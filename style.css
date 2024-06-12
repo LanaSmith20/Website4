@@ -1,0 +1,124 @@
+:root{
+     --roseClaro: #FFEADD;
+     --roseEscuro:#FF6666;
+     --roseItermediario:#FCAEAE;
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 20px;
+    background-color: #FCAEAE;
+  
+}
+.topnav a {
+    text-decoration: none;
+    color:#FF6666
+    
+}
+main {
+    background-color: var(--roseClaro);
+    display: flex;
+    width: 100%
+}
+ .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 370px;
+    line-height: 1.8;
+    color: #FF6666;
+  
+ }
+
+ .texto h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Candal", sans-serif;
+    margin-right: 100px;
+    font-size: 40px;
+    background-color: #FF6666;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFEADD;
+ }
+.container-left{
+    width: 10%;
+
+}
+
+.container-right{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-right h1{
+    font-size: 70px;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 50px;
+    color: #FF6666;
+
+}
+.container-right p{
+    margin-bottom: 40px;
+    color: #FF6666
+}
+
+.container-right button{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF6666;
+    color: #FFEADD;
+}
+
+
+.container-right img{
+    margin-top: 60px;
+}
+
+.container-photo{
+    display: flex;
+    justify-content: center;
+    background-color: #FCAEAE;
+    color: #FF6666;
+    
+}
+.container-photo img{
+   width: 150px;
+   height: 200px;
+   margin: 20px; 
+   border-radius: 80px;
+   
+
+}
+.container-photo P{
+    display: flex;
+    justify-content: center;
+    line-height: 2.5;
+    background-color: #FFEADD;
+    border-radius: 100px;
+    opacity: 0.7;
+  
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
