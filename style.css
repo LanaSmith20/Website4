@@ -41,7 +41,7 @@ main {
   
  }
 
- .texto h1{
+ .texto h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,36 +89,78 @@ main {
 .container-right img{
     margin-top: 60px;
 }
+h3{
+    background-color: var(--roseItermediario);
+    text-align: center;
+    color: #FF6666;
+    padding: 20px;
+    font-size: 40px;  
+
+}
 
 .container-photo{
     display: flex;
     justify-content: center;
     background-color: #FCAEAE;
-    color: blue;
+    color: #FF6666;
+    padding: 0 5% 5% 5%;
     
 }
-.container-photo img{
+.photo-item{
+    background-color: rgba(255, 255, 255, 0.313);
+    margin-right: 60px;
+    border-radius: 20px;
+     
+}
+.photo-item img{
    width: 150px;
    height: 200px;
    margin: 20px; 
-   border-radius: 80px;
+   border-radius: 20px;
    
-
 }
-.container-photo P{
+.photo-item p{
     display: flex;
     justify-content: center;
     line-height: 2.5;
     background-color: #FFEADD;
-    border-radius: 100px;
+    border-radius: 20px;
     opacity: 0.7;
-  
+    margin: 20px; 
 }
-.form
-{
+.container-form{
+    width:100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    background-color: #FFEADD;
+  
 }
+.form-left{
+    width:50%;
+    background-color: aqua;
+}
+.form-right{
+  width: 40%;
+  margin:2em 0;
+  padding: 1em 2em;
+  border: solid 1px black;
+  border-radius: 20px;
+  background-color: aqua;
+}
+label{
+   display: block;
+    margin-top: 1em;
+    background-color: black;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+
+  
+   
+   
+
